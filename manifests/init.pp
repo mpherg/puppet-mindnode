@@ -1,4 +1,7 @@
 # This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+class mindnode {
+  package { 'mindnode':
+    provider => 'compressed_app',
+    source   => 'http://mindnode.com/download/MindNodePro-Demo.zip'
+  }
 }
