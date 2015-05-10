@@ -1,3 +1,4 @@
+# Installs MindNode demo into /Applications
 class mindnode {
   package { 'MindNodeDemo':
     provider => 'compressed_app',
