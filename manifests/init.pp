@@ -1,7 +1,6 @@
-# This is a placeholder class.
 class mindnode {
   package { 'mindnode':
     provider => 'compressed_app',
-    source   => 'http://mindnode.com/download/MindNodePro-Demo.zip'
+    source   => 'http://mindnode.com/download/MindNodePro-Demo.zip',
   }
 }
