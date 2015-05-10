@@ -6,10 +6,8 @@ describe 'mindnode' do
   }
   end
 
-  it do
-    should contain_package('mindnode').with({
+  it should contain_package('MindNodeDemo').with({
       :provider => 'compressed_app',
       :source   => 'http://mindnode.com/download/MindNodePro-Demo.zip',
     })
-  end
 end
